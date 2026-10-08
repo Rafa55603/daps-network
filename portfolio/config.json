@@ -3,5 +3,5 @@
   "repo": "daps-network",
   "branch": "main",
   "contentPath": "data/content.json",
-  "adminApiUrl": "https://daps-admin.rafaleadaffbhista.workers.dev"
+  "adminApiUrl": ""
 }
