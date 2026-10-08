@@ -1,0 +1,7 @@
+{
+  "name": "daps-network-portfolio",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Buildless HTML, CSS and JavaScript portfolio with GitHub-backed admin editing."
+}
