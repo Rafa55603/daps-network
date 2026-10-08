@@ -1,0 +1,189 @@
+{
+  "version": 1,
+  "profile": {
+    "brand": "Daps Network",
+    "heroFirst": "DAPS",
+    "heroSecond": "NETWORK",
+    "name": "Rafalea Daffa Abhista",
+    "role": "CREATOR · DEVELOPER · CURIOUS MIND",
+    "tagline": "WEB DEVELOPMENT · NETWORKING · OPEN SOURCE",
+    "intro": "Tempat ide jadi eksperimen. Tempat eksperimen jadi sesuatu yang bisa dipakai.",
+    "bio": "Halo, aku Rafalea Daffa Abhista. Di balik Daps Network, aku mengeksplorasi teknologi melalui proyek, eksperimen, dan hal-hal baru yang kupelajari.\n\nWebsite ini adalah ruang untuk mendokumentasikan prosesnya: apa yang kubuat, bagaimana cara kerjanya, dan pelajaran yang kutemukan di perjalanan.",
+    "location": "Indonesia",
+    "email": "",
+    "avatar": "",
+    "skills": [
+      "Web Development",
+      "Networking",
+      "JavaScript",
+      "Open Source",
+      "UI / UX"
+    ],
+    "github": "",
+    "instagram": "",
+    "youtube": "",
+    "linkedin": "",
+    "projectsTitle": "Things I've built",
+    "projectsIntro": "Kumpulan proyek, percobaan kecil, dan ide yang akhirnya keluar dari kepala. Selalu ada hal baru untuk dibangun.",
+    "blogTitle": "Latest from the lab",
+    "blogIntro": "Catatan proses, hal yang kupelajari, dan cerita di balik proyek. Sedikit kode, banyak rasa ingin tahu.",
+    "contactTitle": "Let's build something",
+    "contactText": "Punya ide, pertanyaan, atau ingin berkolaborasi? Aku selalu terbuka untuk percakapan yang menarik.",
+    "aboutTitle": "Hi, I'm Daffa"
+  },
+  "projects": [
+    {
+      "id": "network-monitor",
+      "title": "Network Monitor",
+      "category": "Networking",
+      "description": "Konsep dashboard untuk membaca status jaringan, latensi, dan perangkat dalam satu tampilan.",
+      "body": "## Tentang proyek\nContoh proyek yang bisa kamu ganti melalui panel admin.\n\nDashboard ini dirancang untuk merangkum status perangkat dan koneksi dalam antarmuka yang mudah dipahami.\n\n## Fokus pengembangan\n- Ringkasan perangkat yang terhubung\n- Visualisasi latensi\n- Tampilan yang nyaman di layar kecil",
+      "tags": [
+        "Networking",
+        "Dashboard"
+      ],
+      "icon": "network",
+      "image": "",
+      "url": "",
+      "featured": true
+    },
+    {
+      "id": "daps-portfolio",
+      "title": "Daps Portfolio",
+      "category": "Web Development",
+      "description": "Rumah digital untuk proyek dan tulisan. Ringan, personal, dan dibangun dengan teknologi web sederhana.",
+      "body": "## Rumah untuk semua eksperimen\nPortofolio ini menggunakan HTML, CSS, dan JavaScript. Kontennya tersimpan sebagai JSON agar mudah dipindahkan dan dikelola.\n\n## Di balik layar\nAdmin terhubung ke GitHub untuk menyimpan perubahan ke repositori. GitHub Pages kemudian memperbarui website.\n\n```html\n<h1>Daps Network</h1>\n<p>Build. Learn. Repeat.</p>\n```",
+      "tags": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "icon": "code",
+      "image": "",
+      "url": "",
+      "featured": true
+    },
+    {
+      "id": "home-lab",
+      "title": "Home Lab",
+      "category": "Networking",
+      "description": "Ruang percobaan untuk layanan lokal, konfigurasi jaringan, dan belajar infrastruktur dari dasar.",
+      "body": "## Eksperimen kecil, pelajaran besar\nContoh proyek home lab. Ubah deskripsi, dokumentasi, serta tautan repositori melalui admin.\n\n## Yang dieksplorasi\n- Jaringan lokal\n- Dokumentasi konfigurasi\n- Pemantauan layanan",
+      "tags": [
+        "Linux",
+        "Home Lab"
+      ],
+      "icon": "server",
+      "image": "",
+      "url": "",
+      "featured": true
+    },
+    {
+      "id": "daily-notes",
+      "title": "Daily Notes",
+      "category": "Web Development",
+      "description": "Eksperimen aplikasi catatan yang mengutamakan fokus, pencarian sederhana, dan akses cepat.",
+      "body": "## Catatan tanpa distraksi\nContoh aplikasi catatan untuk menyimpan ide dan hal yang dipelajari setiap hari.\n\n## Pendekatan\nMulai dari fungsi yang paling penting, lalu tambahkan fitur berdasarkan kebutuhan nyata.",
+      "tags": [
+        "JavaScript",
+        "Productivity"
+      ],
+      "icon": "file",
+      "image": "",
+      "url": "",
+      "featured": true
+    },
+    {
+      "id": "tiny-api",
+      "title": "Tiny API",
+      "category": "Open Source",
+      "description": "Eksplorasi antarmuka data yang kecil, mudah dipahami, dan punya dokumentasi yang jelas.",
+      "body": "## Antarmuka yang sederhana\nContoh proyek API. Tambahkan dokumentasi dan tautan implementasi milikmu di sini.\n\n```json\n{\n  \"status\": \"ok\",\n  \"message\": \"Hello, world.\"\n}\n```",
+      "tags": [
+        "API",
+        "JSON"
+      ],
+      "icon": "terminal",
+      "image": "",
+      "url": "",
+      "featured": true
+    },
+    {
+      "id": "weather-station",
+      "title": "Weather Station",
+      "category": "Experiment",
+      "description": "Ide untuk menghubungkan data lingkungan dengan tampilan web yang tenang dan informatif.",
+      "body": "## Membawa data ke layar\nContoh eksperimen visualisasi data lingkungan. Ganti isinya dengan proyek aslimu.\n\n## Hal yang ingin dicoba\n- Pembacaan suhu\n- Ringkasan kondisi harian\n- Riwayat pengukuran",
+      "tags": [
+        "IoT",
+        "Data"
+      ],
+      "icon": "globe",
+      "image": "",
+      "url": "",
+      "featured": true
+    },
+    {
+      "id": "pixel-components",
+      "title": "Pixel Components",
+      "category": "Open Source",
+      "description": "Kumpulan komponen antarmuka dengan karakter terminal, detail pixel, dan aksesibilitas dasar.",
+      "body": "## Detail kecil yang konsisten\nContoh pustaka komponen. Setiap komponen dimulai dari struktur HTML yang jelas dan kontrol keyboard yang nyaman.\n\n## Komponen\n- Tombol dan tautan\n- Kartu konten\n- Navigasi responsif",
+      "tags": [
+        "CSS",
+        "Components"
+      ],
+      "icon": "grid",
+      "image": "",
+      "url": "",
+      "featured": true
+    },
+    {
+      "id": "lab-journal",
+      "title": "Lab Journal",
+      "category": "Experiment",
+      "description": "Dokumentasi terbuka tentang apa yang berhasil, apa yang gagal, dan apa yang akan dicoba berikutnya.",
+      "body": "## Mencatat proses\nContoh jurnal eksperimen. Tidak semua percobaan langsung berhasil, dan prosesnya tetap layak dicatat.\n\n## Format catatan\n- Tujuan eksperimen\n- Langkah yang dicoba\n- Hasil dan tindak lanjut",
+      "tags": [
+        "Writing",
+        "Learning"
+      ],
+      "icon": "beaker",
+      "image": "",
+      "url": "",
+      "featured": true
+    }
+  ],
+  "articles": [
+    {
+      "id": "memulai-daps-network",
+      "title": "Daps Network: ruang untuk membangun dan belajar",
+      "category": "Journal",
+      "excerpt": "Sebuah tempat untuk menyimpan proyek, ide, dan catatan perjalanan. Dimulai dari satu halaman kecil.",
+      "date": "2026-10-08",
+      "image": "",
+      "cover": "terminal",
+      "body": "## Halo, selamat datang.\nDaps Network adalah rumah untuk proyek dan catatan Rafalea Daffa Abhista.\n\nWebsite ini berawal dari keinginan sederhana: punya satu tempat untuk mengumpulkan semua hal yang sedang dibuat dan dipelajari.\n\n## Apa yang akan ada di sini?\n- Proyek yang bisa dieksplorasi\n- Catatan pengembangan dan eksperimen\n- Hal-hal kecil yang layak dibagikan\n\n## Mulai dari yang kecil\nTidak perlu menunggu proyek sempurna untuk mulai mendokumentasikannya. Catatan singkat hari ini bisa menjadi petunjuk berharga untuk percobaan berikutnya.\n\nIni adalah artikel pembuka contoh. Isinya bisa diganti melalui panel admin."
+    },
+    {
+      "id": "web-sederhana",
+      "title": "Membangun web dengan HTML, CSS, dan rasa ingin tahu",
+      "category": "Web Development",
+      "excerpt": "Mulai dari struktur, beri ruang untuk konten, lalu tambahkan interaksi yang memang dibutuhkan.",
+      "date": "2026-10-06",
+      "image": "",
+      "cover": "code",
+      "body": "## Mulai dari kontennya\nSebelum memilih warna dan animasi, tentukan apa yang ingin disampaikan. Struktur konten yang jelas membuat keputusan desain berikutnya lebih mudah.\n\n## Tiga lapisan sederhana\nHTML menyusun konten. CSS menentukan tampilan. JavaScript menambahkan perilaku.\n\n```html\n<main>\n  <h1>Halo, dunia.</h1>\n  <p>Satu ide, satu langkah.</p>\n</main>\n```\n\n## Coba di berbagai layar\nPerhatikan panjang baris, ukuran tombol, dan urutan informasi ketika layarnya mengecil.\n\nArtikel ini adalah konten contoh yang dapat diedit."
+    },
+    {
+      "id": "catatan-home-lab",
+      "title": "Catatan pertama dari sebuah home lab kecil",
+      "category": "Networking",
+      "excerpt": "Memahami perangkat, koneksi, dan kebiasaan mencatat sebelum mencoba konfigurasi berikutnya.",
+      "date": "2026-10-03",
+      "image": "",
+      "cover": "network",
+      "body": "## Kenali yang sudah ada\nSebuah lab bisa dimulai dari perangkat sederhana. Catat fungsi setiap perangkat dan bagaimana semuanya saling terhubung.\n\n## Dokumentasi sejak awal\n- Tuliskan tujuan percobaan\n- Simpan konfigurasi awal\n- Catat perubahan dan hasilnya\n\n## Satu perubahan setiap kali\nMembatasi perubahan membuat penyebab masalah lebih mudah ditemukan. Setelah satu percobaan selesai, rangkum apa yang dipelajari sebelum melanjutkan.\n\nArtikel ini adalah konten contoh; ganti dengan pengalamanmu sendiri."
+    }
+  ]
+}
