@@ -1,4 +1,4 @@
-import {validateContent} from './shared.js';
+import {validateContent} from './shared.js?v=photos1';
 const verifierKey='daps.oauth.verifier';
 const proofKey='daps.oauth.context';
 const toBase64URL=bytes=>btoa(String.fromCharCode(...bytes)).replace(/\+/g,'-').replace(/\//g,'_').replace(/=+$/,'');
@@ -35,14 +35,18 @@ export class GitHubStore {
     }catch(error){await this.logout();throw error;}
   }
   async #request(path,options={}) {
-    const controller=new AbortController();const timeout=setTimeout(()=>controller.abort(),25000);
+    const controller=new AbortController();const timeout=setTimeout(()=>controller.abort(),options.body instanceof Blob?60000:25000);
     try{
-      const response=await fetch(this.#api+path,{...options,cache:'no-store',signal:controller.signal,credentials:'omit',headers:{Accept:'application/json',...(this.#session?{Authorization:'Bearer '+this.#session}:{}),...(options.body?{'Content-Type':'application/json'}:{})}});
+      const response=await fetch(this.#api+path,{...options,cache:'no-store',signal:controller.signal,credentials:'omit',headers:{Accept:'application/json',...(this.#session?{Authorization:'Bearer '+this.#session}:{}),...(options.body?{'Content-Type':options.body instanceof Blob?options.body.type:'application/json'}:{})}});
       const result=await response.json();
       if(!response.ok)throw new Error(result.error||'Server admin menolak permintaan.');
       return result;
     }catch(error){if(error.name==='AbortError')throw new Error('Server terlalu lama merespons. Periksa repositori sebelum mencoba menerbitkan lagi.');if(error instanceof TypeError)throw new Error('Tidak dapat terhubung ke server admin. Periksa adminApiUrl, SITE_URL, dan koneksi internet.');throw error;}
     finally{clearTimeout(timeout);}
+  }
+  async uploadImage(blob){
+    if(!this.connected)throw new Error('Masuk dengan GitHub sebelum mengunggah foto.');
+    return this.#request('/api/images',{method:'POST',body:blob});
   }
   async publish(data) {
     if(!this.connected)throw new Error('Masuk dengan GitHub untuk menerbitkan perubahan.');

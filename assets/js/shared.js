@@ -9,6 +9,10 @@ export function safeUrl(value, {image=false}={}) {
   if (image && /^(?:\.\/)?assets\/[a-zA-Z0-9_./-]+\.(png|jpe?g|webp|gif|avif)$/i.test(url) && !url.split('/').includes('..')) return url;
   return '';
 }
+export function photoList(item) {
+  if(item.mediaMode==='none')return [];
+  return Array.isArray(item.images)?item.images:(item.image?[item.image]:[]);
+}
 export function formatDate(value) {
   const date=new Date(value+'T12:00:00');
   return Number.isNaN(date.getTime()) ? '' : new Intl.DateTimeFormat('id-ID',{day:'numeric',month:'short',year:'numeric'}).format(date);
@@ -48,6 +52,11 @@ export function validateContent(data) {
       for(const key of ['title','category','body','image',...(kind==='projects'?['description','url','icon']:['excerpt','date','cover'])])if(typeof item[key]!=='string')throw new Error('Field konten tidak valid: '+key);
       if(!item.title.trim() || !item.category.trim())throw new Error('Judul dan kategori wajib diisi.');
       if(item.image && !safeUrl(item.image,{image:true}))throw new Error('Gambar harus URL HTTPS atau file gambar di assets/.');
+      if(item.mediaMode!==undefined&&!['none','photos'].includes(item.mediaMode))throw new Error('Pilih Dengan foto atau Tanpa foto.');
+      if(item.images!==undefined&&(!Array.isArray(item.images)||item.images.some(src=>typeof src!=='string'||!safeUrl(src,{image:true}))))throw new Error('Daftar foto tidak valid.');
+      if(item.mediaMode==='photos'&&(!Array.isArray(item.images)||!item.images.length))throw new Error('Dengan foto wajib memiliki minimal 1 foto.');
+      if(item.mediaMode==='none'&&(item.image||item.images?.length))throw new Error('Tanpa foto tidak boleh menyertakan gambar.');
+      if(item.images?.length&&item.image!==item.images[0])throw new Error('Sampul harus sama dengan foto pertama.');
       if(kind==='projects' && (!Array.isArray(item.tags) || item.tags.some(x=>typeof x!=='string') || typeof item.featured!=='boolean'))throw new Error('Tag atau pilihan proyek unggulan tidak valid.');
       if(kind==='projects' && item.url && !safeUrl(item.url))throw new Error('Tautan proyek harus menggunakan HTTPS.');
       if(kind==='articles' && (!/^\d{4}-\d{2}-\d{2}$/.test(item.date)||Number.isNaN(Date.parse(item.date+'T12:00:00Z'))))throw new Error('Tanggal artikel tidak valid.');
