@@ -34,6 +34,34 @@
   "projects": [],
   "articles": [
     {
+      "title": "Progate (Git)",
+      "category": "Achievements",
+      "date": "2021-02-22",
+      "excerpt": "Completed the Git course on Progate!",
+      "mediaMode": "photos",
+      "cover": "terminal",
+      "body": "## Mengenal Dasar Git bersama Progate \n\nBerhasil menyelesaikan **Kursus Git di Progate** yang mencakup fundamental Git!\n\nMelalui kursus ini, aku mulai mengenal peran Git dalam mencatat perubahan kode dan mendukung kolaborasi dalam pengembangan proyek.\n\nSatu langkah lagi dalam perjalanan belajar pemrograman. Selanjutnya, saatnya terus berlatih dan menerapkan pengetahuan ini pada proyek sendiri! \n\n#Progate #Git #VersionControl #BelajarCoding #WebDevelopment",
+      "images": [
+        "assets/uploads/9156feb4843eaa17809f2ff77a98b23effa23798adb50ea1f6d102dc602d8af2.webp"
+      ],
+      "image": "assets/uploads/9156feb4843eaa17809f2ff77a98b23effa23798adb50ea1f6d102dc602d8af2.webp",
+      "id": "progate-git"
+    },
+    {
+      "title": "Hour Of Code (Minecraft #1)",
+      "category": "Achievements",
+      "date": "2023-11-15",
+      "excerpt": "Looking back at one of the milestones that helped shape my interest in Computer Science.",
+      "mediaMode": "photos",
+      "cover": "terminal",
+      "body": "## Belajar dasar coding lewat Minecraft\n\nBerhasil menyelesaikan **Hour of Code bertema Minecraft** dari **Code.org**! Kegiatan ini menjadi langkah awal untuk mengenal konsep dasar ilmu komputer melalui pengalaman belajar yang interaktif.\n\nBelajar coding mengajakku untuk berpikir logis, menyusun langkah penyelesaian, dan terus mencoba saat menghadapi tantangan.\n\nDari langkah kecil ini, semangat untuk belajar dan mengeksplorasi dunia pemrograman terus tumbuh! \n\n#HourOfCode #Minecraft #CodeOrg #BelajarCoding #ComputerScience",
+      "images": [
+        "assets/uploads/632d57ac857e911d2f7f8131f6ec18b8843a283cb0326d9185de08a803ec4454.webp"
+      ],
+      "image": "assets/uploads/632d57ac857e911d2f7f8131f6ec18b8843a283cb0326d9185de08a803ec4454.webp",
+      "id": "hour-of-code-minecraft-1"
+    },
+    {
       "id": "memulai-daps-network",
       "title": "Invovest Competition",
       "category": "Achievements",
@@ -52,7 +80,7 @@
       "title": "Progate (HTML & CSS)",
       "category": "Achievements",
       "excerpt": "Another step in my learning journey!",
-      "date": "2021-09-03",
+      "date": "2021-03-09",
       "image": "assets/uploads/7602d5e5ed36cca5edeb8a17818cdd958ddca0d72dec07cd9859dccb7b64a7ec.webp",
       "cover": "code",
       "body": "## Satu langkah dalam belajar pengembangan web 💻\n\nBerhasil menyelesaikan **Kursus HTML & CSS di Progate**, yang terdiri dari **4 materi belajar dan 3 latihan**!\n\nLewat kursus ini, aku belajar dasar HTML untuk menyusun konten dan CSS untuk mengatur tampilan halaman web. Sertifikat ini menjadi pengingat bahwa setiap langkah kecil dalam belajar punya arti.\n\nPerjalanan belajarku masih berlanjut. Saatnya mengembangkan kemampuan lewat latihan dan mencoba membuat halaman web sendiri! \n\n#Progate #HTML #CSS #BelajarCoding #WebDevelopment",
