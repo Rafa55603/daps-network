@@ -37,11 +37,11 @@
       "id": "memulai-daps-network",
       "title": "Invovest Competition",
       "category": "Achievements",
-      "excerpt": "Sebuah tempat untuk menyimpan proyek, ide, dan catatan perjalanan. Dimulai dari satu halaman kecil.",
+      "excerpt": "Proud to have participated in the National IT Competition “Web Design” at INVOFEST 2024.",
       "date": "2024-10-24",
       "image": "assets/uploads/a7de5ff4a9ce398113f53476dc63e839a05571a14002b27c8443ea7253a63eda.webp",
       "cover": "terminal",
-      "body": "## Halo, selamat datang.\nDaps Network adalah rumah untuk proyek dan catatan Rafalea Daffa Abhista.\n\nWebsite ini berawal dari keinginan sederhana: punya satu tempat untuk mengumpulkan semua hal yang sedang dibuat dan dipelajari.\n\n## Apa yang akan ada di sini?\n- Proyek yang bisa dieksplorasi\n- Catatan pengembangan dan eksperimen\n- Hal-hal kecil yang layak dibagikan\n\n## Mulai dari yang kecil\nTidak perlu menunggu proyek sempurna untuk mulai mendokumentasikannya. Catatan singkat hari ini bisa menjadi petunjuk berharga untuk percobaan berikutnya.\n\nIni adalah artikel pembuka contoh. Isinya bisa diganti melalui panel admin.",
+      "body": "## Mengasah kreativitas melalui kompetisi web design 💻\n\nBerpartisipasi sebagai **peserta National IT Competition bidang Web Design** dalam **Informatics Vocational Festival (INVOFEST) 2024**, yang diselenggarakan oleh HMPTI Politeknik Harapan Bersama.\n\nKesempatan ini menjadi bagian dari perjalanan belajarku untuk terus mengembangkan kemampuan dalam desain web, mencoba tantangan baru, dan menuangkan ide menjadi karya.\n\nSemoga pengalaman ini menjadi motivasi untuk terus berlatih dan menghasilkan karya yang lebih baik! \n\n#INVOFEST2024 #WebDesign #ITCompetition #PoliteknikHarapanBersama #BelajarBerkarya",
       "mediaMode": "photos",
       "images": [
         "assets/uploads/a7de5ff4a9ce398113f53476dc63e839a05571a14002b27c8443ea7253a63eda.webp"
@@ -49,23 +49,17 @@
     },
     {
       "id": "web-sederhana",
-      "title": "Membangun web dengan HTML, CSS, dan rasa ingin tahu",
-      "category": "Web Development",
-      "excerpt": "Mulai dari struktur, beri ruang untuk konten, lalu tambahkan interaksi yang memang dibutuhkan.",
-      "date": "2026-10-06",
-      "image": "",
+      "title": "Progate (HTML & CSS)",
+      "category": "Achievements",
+      "excerpt": "Another step in my learning journey!",
+      "date": "2021-09-03",
+      "image": "assets/uploads/7602d5e5ed36cca5edeb8a17818cdd958ddca0d72dec07cd9859dccb7b64a7ec.webp",
       "cover": "code",
-      "body": "## Mulai dari kontennya\nSebelum memilih warna dan animasi, tentukan apa yang ingin disampaikan. Struktur konten yang jelas membuat keputusan desain berikutnya lebih mudah.\n\n## Tiga lapisan sederhana\nHTML menyusun konten. CSS menentukan tampilan. JavaScript menambahkan perilaku.\n\n```html\n<main>\n  <h1>Halo, dunia.</h1>\n  <p>Satu ide, satu langkah.</p>\n</main>\n```\n\n## Coba di berbagai layar\nPerhatikan panjang baris, ukuran tombol, dan urutan informasi ketika layarnya mengecil.\n\nArtikel ini adalah konten contoh yang dapat diedit."
-    },
-    {
-      "id": "catatan-home-lab",
-      "title": "Catatan pertama dari sebuah home lab kecil",
-      "category": "Networking",
-      "excerpt": "Memahami perangkat, koneksi, dan kebiasaan mencatat sebelum mencoba konfigurasi berikutnya.",
-      "date": "2026-10-03",
-      "image": "",
-      "cover": "network",
-      "body": "## Kenali yang sudah ada\nSebuah lab bisa dimulai dari perangkat sederhana. Catat fungsi setiap perangkat dan bagaimana semuanya saling terhubung.\n\n## Dokumentasi sejak awal\n- Tuliskan tujuan percobaan\n- Simpan konfigurasi awal\n- Catat perubahan dan hasilnya\n\n## Satu perubahan setiap kali\nMembatasi perubahan membuat penyebab masalah lebih mudah ditemukan. Setelah satu percobaan selesai, rangkum apa yang dipelajari sebelum melanjutkan.\n\nArtikel ini adalah konten contoh; ganti dengan pengalamanmu sendiri."
+      "body": "## Satu langkah dalam belajar pengembangan web 💻\n\nBerhasil menyelesaikan **Kursus HTML & CSS di Progate**, yang terdiri dari **4 materi belajar dan 3 latihan**!\n\nLewat kursus ini, aku belajar dasar HTML untuk menyusun konten dan CSS untuk mengatur tampilan halaman web. Sertifikat ini menjadi pengingat bahwa setiap langkah kecil dalam belajar punya arti.\n\nPerjalanan belajarku masih berlanjut. Saatnya mengembangkan kemampuan lewat latihan dan mencoba membuat halaman web sendiri! \n\n#Progate #HTML #CSS #BelajarCoding #WebDevelopment",
+      "mediaMode": "photos",
+      "images": [
+        "assets/uploads/7602d5e5ed36cca5edeb8a17818cdd958ddca0d72dec07cd9859dccb7b64a7ec.webp"
+      ]
     }
   ]
 }
