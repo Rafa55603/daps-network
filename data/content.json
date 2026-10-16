@@ -34,6 +34,20 @@
   "projects": [],
   "articles": [
     {
+      "title": "Goes To Public 2025",
+      "category": "Achievements",
+      "date": "2025-02-22",
+      "excerpt": "What started as a learning session unexpectedly turned into a competition.",
+      "mediaMode": "photos",
+      "cover": "terminal",
+      "body": "## Meraih Juara 2 Web Design di GTP 2025 🏆\n\nPengalaman berkesan dalam perjalanan belajarku di dunia pengembangan web! Bersama **Manggala, adik kelasku**, kami berhasil meraih **Juara 2 lomba Web Design HTML & CSS** dalam acara **Goes To Public (GTP) 2025**.\n\nMengikuti kompetisi ini menjadi kesempatan bagi kami untuk membawa apa yang telah dipelajari ke dalam sebuah karya. HTML dan CSS yang biasanya digunakan saat latihan kini menjadi bekal untuk menyusun halaman web dan menuangkan kreativitas dalam suasana perlombaan.\n\n## Belajar dan berjuang bersama \n\nSalah satu bagian paling berharga dari pengalaman ini adalah bekerja sebagai tim. Kami belajar bertukar ide, menyatukan sudut pandang, dan saling mendukung untuk memberikan hasil terbaik. Berkompetisi bersama adik kelas juga menjadi pengalaman menyenangkan karena kami bisa belajar satu sama lain.\n\nMeraih juara 2 tentu menjadi kebanggaan bagi kami. Pengalaman mengikuti acara ini juga memberikan pelajaran tentang pentingnya persiapan, komunikasi, dan keberanian untuk menguji kemampuan melalui tantangan baru.\n\nTerima kasih kepada **Manggala** yang sudah menjadi rekan seperjuangan, serta kepada panitia dan semua pihak yang mendukung kegiatan ini. Semoga pencapaian ini menjadi motivasi bagi kami untuk terus berlatih, mengembangkan kemampuan, dan kembali berkarya di kesempatan berikutnya! \n\n#GTP2025 #GoesToPublic #Juara2 #WebDesign #HTML #CSS #KerjaSamaTim #BelajarBerkarya",
+      "images": [
+        "assets/uploads/a2ea24487d24ab44b4f01caa5c36f14ce5005dae8b1bcb79cb8c03834054170b.webp"
+      ],
+      "image": "assets/uploads/a2ea24487d24ab44b4f01caa5c36f14ce5005dae8b1bcb79cb8c03834054170b.webp",
+      "id": "goes-to-public-2025"
+    },
+    {
       "title": "Hour Of Code (Minecraft #2)",
       "category": "Achievements",
       "date": "2023-12-12",
