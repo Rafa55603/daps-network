@@ -34,6 +34,34 @@
   "projects": [],
   "articles": [
     {
+      "title": "Hour Of Code (Minecraft #2)",
+      "category": "Achievements",
+      "date": "2023-12-12",
+      "excerpt": "A small milestone, but an important part of the journey.",
+      "mediaMode": "photos",
+      "cover": "terminal",
+      "body": "## Melanjutkan Petualangan Coding bersama Minecraft \n\nSetelah menyelesaikan **Hour of Code Minecraft dengan sertifikat merah**, kini perjalanan belajarku berlanjut dengan meraih **sertifikat biru**!\n\nKegiatan dari **Code.org** ini menjadi kesempatan untuk kembali mengasah logika dan memperkuat pemahaman konsep dasar ilmu komputer melalui tantangan bertema Minecraft.\n\nSelangkah demi selangkah, aku terus belajar dan mengembangkan kemampuan coding. Semangat untuk tantangan berikutnya! \n\n#HourOfCode #Minecraft #CodeOrg #BelajarCoding #ComputerScience",
+      "images": [
+        "assets/uploads/9036eefce8d454db96deeb56541eb7a4cf1a69c24215841e649fb7a26775348d.webp"
+      ],
+      "image": "assets/uploads/9036eefce8d454db96deeb56541eb7a4cf1a69c24215841e649fb7a26775348d.webp",
+      "id": "hour-of-code-minecraft-2"
+    },
+    {
+      "title": "Hour Of Code (Base Computer Science)",
+      "category": "Achievements",
+      "date": "2023-09-10",
+      "excerpt": "Every journey starts somewhere.",
+      "mediaMode": "photos",
+      "cover": "terminal",
+      "body": "## Mengenal Dasar Ilmu Komputer melalui Hour of Code \n\nBerhasil menyelesaikan **The Hour of Code dari Code.org** sebagai langkah awal memahami konsep dasar ilmu komputer!\n\nPengalaman ini menjadi bagian dari perjalanan belajarku dalam mengenal dunia pemrograman. Setiap tantangan menjadi kesempatan untuk melatih logika dan belajar menyelesaikan masalah secara bertahap.\n\nSertifikat ini menjadi penyemangat untuk terus belajar, mencoba, dan mengembangkan kemampuan coding! \n\n#HourOfCode #CodeOrg #BelajarCoding #ComputerScience #SemangatBelajar",
+      "images": [
+        "assets/uploads/598449ca845a42f1b2f1d8802fbdf4473706b023aa78bb0dbfbe7021838dd781.webp"
+      ],
+      "image": "assets/uploads/598449ca845a42f1b2f1d8802fbdf4473706b023aa78bb0dbfbe7021838dd781.webp",
+      "id": "hour-of-code-base-computer-science"
+    },
+    {
       "title": "Progate (Git)",
       "category": "Achievements",
       "date": "2021-02-22",
