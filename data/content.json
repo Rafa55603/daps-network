@@ -35,13 +35,17 @@
   "articles": [
     {
       "id": "memulai-daps-network",
-      "title": "Daps Network: ruang untuk membangun dan belajar",
-      "category": "Journal",
+      "title": "Invovest Competition",
+      "category": "Achievements",
       "excerpt": "Sebuah tempat untuk menyimpan proyek, ide, dan catatan perjalanan. Dimulai dari satu halaman kecil.",
-      "date": "2026-10-08",
-      "image": "",
+      "date": "2024-10-24",
+      "image": "assets/uploads/a7de5ff4a9ce398113f53476dc63e839a05571a14002b27c8443ea7253a63eda.webp",
       "cover": "terminal",
-      "body": "## Halo, selamat datang.\nDaps Network adalah rumah untuk proyek dan catatan Rafalea Daffa Abhista.\n\nWebsite ini berawal dari keinginan sederhana: punya satu tempat untuk mengumpulkan semua hal yang sedang dibuat dan dipelajari.\n\n## Apa yang akan ada di sini?\n- Proyek yang bisa dieksplorasi\n- Catatan pengembangan dan eksperimen\n- Hal-hal kecil yang layak dibagikan\n\n## Mulai dari yang kecil\nTidak perlu menunggu proyek sempurna untuk mulai mendokumentasikannya. Catatan singkat hari ini bisa menjadi petunjuk berharga untuk percobaan berikutnya.\n\nIni adalah artikel pembuka contoh. Isinya bisa diganti melalui panel admin."
+      "body": "## Halo, selamat datang.\nDaps Network adalah rumah untuk proyek dan catatan Rafalea Daffa Abhista.\n\nWebsite ini berawal dari keinginan sederhana: punya satu tempat untuk mengumpulkan semua hal yang sedang dibuat dan dipelajari.\n\n## Apa yang akan ada di sini?\n- Proyek yang bisa dieksplorasi\n- Catatan pengembangan dan eksperimen\n- Hal-hal kecil yang layak dibagikan\n\n## Mulai dari yang kecil\nTidak perlu menunggu proyek sempurna untuk mulai mendokumentasikannya. Catatan singkat hari ini bisa menjadi petunjuk berharga untuk percobaan berikutnya.\n\nIni adalah artikel pembuka contoh. Isinya bisa diganti melalui panel admin.",
+      "mediaMode": "photos",
+      "images": [
+        "assets/uploads/a7de5ff4a9ce398113f53476dc63e839a05571a14002b27c8443ea7253a63eda.webp"
+      ]
     },
     {
       "id": "web-sederhana",
